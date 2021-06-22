@@ -47,7 +47,7 @@ Use the process.sh bash file to execute the script.
 ```
 bash process.sh
 ```
-It takes the data for the department codes that are of interest to us (i.e. Ile-de-France) and uses the included coordinates to calculate accessibility. Accessibility of A is calculated as the average travel time from all other point to the point A. A couple of gps coordinates have been modified by hand since they were in inaccessible places (rivers, lakes, airport). Possibility to use a multi-processus computation.
+It takes the data for the department codes that are of interest to us (i.e. Ile-de-France) and uses the included coordinates to calculate accessibility. Accessibility of A is calculated as the average travel time from all other point to the point A. A couple of gps coordinates have been modified by hand since they were in inaccessible places (rivers, lakes, airport). Possibility to use a multi-processus computation. If so, use merge_csv.sh to merge all csvs into one.
 
 # Visualization
 
