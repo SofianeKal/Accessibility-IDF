@@ -12,7 +12,7 @@ Run OTP as explained in the tutorial. If you get an "Out of memory" exception, t
 
 The script uses two external libraries: libcurl and jansson. To install them (on Linux):
 
-1. Download the libraries from the official website ([libcurl](https://curl.se/download.html), [jansson](http://digip.org/jansson/releases/). Extract them into a folder of your choice. I've used libcurl 7.75.0 and jansson 2.13
+1. Download the libraries from the official website ([libcurl](https://curl.se/download.html), [jansson](http://digip.org/jansson/releases/)). Extract them into a folder of your choice. I've used libcurl 7.75.0 and jansson 2.13
 
 2. For each of the two libraries above, go to their respective folder. Then, use the following commands :
 
