@@ -1,4 +1,4 @@
-N=1 #Number of timestamp (only for timeSlider Choropleth maps, N=1 for ponctual maps)
+N=1 #Number of timestamps (only for timeSlider Choropleth maps, N=1 for ponctual maps)
 
 
 #Provide correct path to csvs
