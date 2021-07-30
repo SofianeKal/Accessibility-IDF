@@ -9,11 +9,15 @@ After you download the jar file of OTP, place it into FOLD. As for the GTFS data
 Run OTP as explained in the tutorial. If you get an "Out of memory" exception, try to increase the memory limits, specified in the parameters. For instance, I needed to give 8GB to OTP to make it run for Île de France.
 
 ## Test with graphical interface
-To test whether Open Trip Planner is correctly installed, you can do some queries via the graphical interface
+To test whether Open Trip Planner is correctly installed, you can do some queries via the graphical interface. Open the browser and go to `localhost:8080`
 
 
 ## Test with command line
-To test whether Open Trip Planner is correctly installed, you can do some queries via command line
+To test whether Open Trip Planner is correctly installed, you can do some queries via command line. For instance do 
+```
+  http://localhost:8080/otp/routers/default/plan?fromPlace=48.77022006460951,1.834764339766627&toPlace=48.93429052727556,2.6315368603992093&date=03-08-2021&time=09:30am&numItineraries=1&optimize=QUICK&debugItineraryFilter=True&searchWindow=1
+```
+
 
 #### Example of one-to-one query
 
