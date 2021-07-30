@@ -151,6 +151,8 @@ string queryAtoB(string coordA, string coordB, string ip, string direction, stri
   //string maxWalkDistance = "2500";
   //url += "&maxWalkDistance=" + maxWalkDistance;
   url += "&numItineraries=1";
+  url+="&optimize=QUICK";
+  url+="&debugItineraryFilter=True&searchWindow=1";
 
   request(url,buffer);
   return buffer;
