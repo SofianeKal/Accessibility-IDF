@@ -4,7 +4,11 @@ N=10 # number of parallel processes
 IP=localhost:8080
 dir=arrival
 date=03-08-2021
-mode="ponctuel"
+mode="ponctuel" #It can be cloropleth or ponctuel.
+                # cloropleth: associates one uniform region to each commune
+                # (one only accessibility value for the entire commune)
+                # ponctuel: associates an accessibility score per each 
+                # transit stop
 hour1="09"
 ampm1=am
 
